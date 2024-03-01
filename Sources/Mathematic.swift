@@ -6,6 +6,7 @@
 //
 
 import Foundation
+
 public enum Shape {
     public case Circle
     public case Triangle
@@ -13,6 +14,11 @@ public enum Shape {
 }
 
 public class Mathematic {
+    
+    public init() {
+        
+    }
+    
     public func area(of shape: Shape, with radius: CGFloat?, base: CGFloat?, height: CGFloat?, length: CGFloat?) -> CGFloat {
         switch shape {
         case .Circle:
