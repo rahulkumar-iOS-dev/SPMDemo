@@ -7,9 +7,9 @@
 
 import Foundation
 public enum Shape {
-    case Circle
-    case Triangle
-    case Square
+    public case Circle
+    public case Triangle
+    public case Square
 }
 
 public class Mathematic {
